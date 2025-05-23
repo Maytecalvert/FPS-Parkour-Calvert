@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!65 &2503997563007981096
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5152777899669184603}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 2}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8389101302448611770
 GameObject:
   m_ObjectHideFlags: 0
@@ -23,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8389101302448611771}
   - component: {fileID: 1178892729971902558}
+  - component: {fileID: 3896005799990933145}
   m_Layer: 0
   m_Name: CajaPrefab
   m_TagString: Untagged
@@ -37,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8389101302448611770}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -61,6 +49,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &3896005799990933145
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8389101302448611770}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &5152777899669087995
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -118,12 +119,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 875041c90aa0822479aa7ff452ba4e0c, type: 3}
---- !u!1 &5152777899669184603 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 875041c90aa0822479aa7ff452ba4e0c,
-    type: 3}
-  m_PrefabInstance: {fileID: 5152777899669087995}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5152777899669224571 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 875041c90aa0822479aa7ff452ba4e0c,
