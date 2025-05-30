@@ -409,7 +409,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarrilPrefab (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1693933003733379361, guid: 5521b884bca067c4b95a51b49b8ca90c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5521b884bca067c4b95a51b49b8ca90c, type: 3}
 --- !u!1 &589649722 stripped
 GameObject:
@@ -429,6 +430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ef75ec8b89c2fb428874a7998742a39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePoints: 0
 --- !u!1001 &633822061
 PrefabInstance:
   m_ObjectHideFlags: 0
