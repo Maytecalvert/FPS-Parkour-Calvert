@@ -119,6 +119,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114157527810337566, guid: b2791633b90eced42a404d9819e7badf,
+        type: 3}
+      propertyPath: precio
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114157527810337566, guid: b2791633b90eced42a404d9819e7badf,
+        type: 3}
+      propertyPath: dineroManager
+      value: 
+      objectReference: {fileID: 1985058930}
     - target: {fileID: 8389101302448611770, guid: b2791633b90eced42a404d9819e7badf,
         type: 3}
       propertyPath: m_Name
@@ -430,7 +440,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ef75ec8b89c2fb428874a7998742a39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scorePoints: 0
+  precio: 10
+  dineroManager: {fileID: 1985058930}
 --- !u!1001 &633822061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -438,6 +449,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114157527810337566, guid: b2791633b90eced42a404d9819e7badf,
+        type: 3}
+      propertyPath: precio
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114157527810337566, guid: b2791633b90eced42a404d9819e7badf,
+        type: 3}
+      propertyPath: dineroManager
+      value: 
+      objectReference: {fileID: 1985058930}
     - target: {fileID: 8389101302448611770, guid: b2791633b90eced42a404d9819e7badf,
         type: 3}
       propertyPath: m_Name
@@ -507,6 +528,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114157527810337566, guid: b2791633b90eced42a404d9819e7badf,
+        type: 3}
+      propertyPath: precio
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114157527810337566, guid: b2791633b90eced42a404d9819e7badf,
+        type: 3}
+      propertyPath: dineroManager
+      value: 
+      objectReference: {fileID: 1985058930}
     - target: {fileID: 8389101302448611770, guid: b2791633b90eced42a404d9819e7badf,
         type: 3}
       propertyPath: m_Name
@@ -576,6 +607,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114157527810337566, guid: b2791633b90eced42a404d9819e7badf,
+        type: 3}
+      propertyPath: precio
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114157527810337566, guid: b2791633b90eced42a404d9819e7badf,
+        type: 3}
+      propertyPath: dineroManager
+      value: 
+      objectReference: {fileID: 1985058930}
     - target: {fileID: 8389101302448611770, guid: b2791633b90eced42a404d9819e7badf,
         type: 3}
       propertyPath: m_Name
@@ -779,7 +820,7 @@ PrefabInstance:
     - target: {fileID: 7277486721746849365, guid: 088f4d3c57fa504439bd15c7cb50dc99,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7277486721746849365, guid: 088f4d3c57fa504439bd15c7cb50dc99,
         type: 3}
@@ -932,7 +973,12 @@ PrefabInstance:
     - target: {fileID: 8301348219256675485, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
         type: 3}
       propertyPath: m_Name
-      value: player
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8301348219256675485, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d23a71d629ca2cb428e58efdcf5d4c1b, type: 3}
@@ -1018,6 +1064,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114157527810337566, guid: b2791633b90eced42a404d9819e7badf,
+        type: 3}
+      propertyPath: precio
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114157527810337566, guid: b2791633b90eced42a404d9819e7badf,
+        type: 3}
+      propertyPath: dineroManager
+      value: 
+      objectReference: {fileID: 1985058930}
     - target: {fileID: 8389101302448611770, guid: b2791633b90eced42a404d9819e7badf,
         type: 3}
       propertyPath: m_Name
@@ -1087,6 +1143,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114157527810337566, guid: b2791633b90eced42a404d9819e7badf,
+        type: 3}
+      propertyPath: precio
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114157527810337566, guid: b2791633b90eced42a404d9819e7badf,
+        type: 3}
+      propertyPath: dineroManager
+      value: 
+      objectReference: {fileID: 1985058930}
     - target: {fileID: 8389101302448611770, guid: b2791633b90eced42a404d9819e7badf,
         type: 3}
       propertyPath: m_Name
@@ -1168,6 +1234,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathFallHeight: -15
+--- !u!114 &1985058930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985058928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4527a8a77afd7a646a75dc1c46510f24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMoney: 100
 --- !u!1001 &2067689759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1175,6 +1254,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114157527810337566, guid: b2791633b90eced42a404d9819e7badf,
+        type: 3}
+      propertyPath: precio
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114157527810337566, guid: b2791633b90eced42a404d9819e7badf,
+        type: 3}
+      propertyPath: dineroManager
+      value: 
+      objectReference: {fileID: 1985058930}
     - target: {fileID: 8389101302448611770, guid: b2791633b90eced42a404d9819e7badf,
         type: 3}
       propertyPath: m_Name
@@ -1382,6 +1471,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114157527810337566, guid: b2791633b90eced42a404d9819e7badf,
+        type: 3}
+      propertyPath: dineroManager
+      value: 
+      objectReference: {fileID: 1985058930}
+    - target: {fileID: 114157527810337566, guid: b2791633b90eced42a404d9819e7badf,
+        type: 3}
+      propertyPath: precio
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8389101302448611770, guid: b2791633b90eced42a404d9819e7badf,
         type: 3}
       propertyPath: m_Name
@@ -1425,7 +1524,7 @@ PrefabInstance:
     - target: {fileID: 8389101302448611771, guid: b2791633b90eced42a404d9819e7badf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8389101302448611771, guid: b2791633b90eced42a404d9819e7badf,
         type: 3}
@@ -1451,6 +1550,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1693933003733379361, guid: 5521b884bca067c4b95a51b49b8ca90c,
+        type: 3}
+      propertyPath: dineroManager
+      value: 
+      objectReference: {fileID: 1985058930}
+    - target: {fileID: 1693933003733379361, guid: 5521b884bca067c4b95a51b49b8ca90c,
+        type: 3}
+      propertyPath: precio
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3259994494676108185, guid: 5521b884bca067c4b95a51b49b8ca90c,
         type: 3}
       propertyPath: m_LocalPosition.x
