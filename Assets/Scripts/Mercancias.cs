@@ -18,9 +18,10 @@ public class Mercancias : MonoBehaviour
         if (collision.gameObject.CompareTag("Player")) //usamos un tag par hacer más fácil la comparación/sintaxis
         {
             //restar precio al dinero del player
-            dineroManager.UpdateMoney(-precio); 
-            Destroy(gameObject);
-            
+            if (dineroManager.UpdateMoney(-precio))
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

@@ -16,15 +16,8 @@ public class UIManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+   public void UpdateMoneyUI (string moneyAmount)
     {
-        if (dineroManager  && Txtprecio )
-        {
-            Txtprecio.text = "$" + dineroManager.playerMoney.ToString("F2");
-        }
-        else
-        {
-            Debug.Log("hubo un error");
-        }
+        Txtprecio.text = moneyAmount;
     }
 }
