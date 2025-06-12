@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -647,6 +647,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b806ec8f2456224a87d472ebdf582d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Txthealth: {fileID: 805034834}
+  enemyhealth: {fileID: 1355314298}
+  healthManager: {fileID: 1985058931}
 --- !u!114 &805034834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1573,6 +1576,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1355314298 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3640693586452462558, guid: e4b7f9d25c12c9241840d76265ea8071,
+    type: 3}
+  m_PrefabInstance: {fileID: 6084001256103727622}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355314296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4146470661d630041a044825c3f3dba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1448603236 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3259994494676108185, guid: 5521b884bca067c4b95a51b49b8ca90c,
@@ -1978,6 +1993,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2da3f05c478f01f4a85311f5ea647a8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerHealth: 100
+  uiHealth: {fileID: 805034833}
 --- !u!1001 &2067689759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2145,6 +2162,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3640693586452462558, guid: e4b7f9d25c12c9241840d76265ea8071,
+        type: 3}
+      propertyPath: healthManager
+      value: 
+      objectReference: {fileID: 1985058931}
+    - target: {fileID: 3640693586452462558, guid: e4b7f9d25c12c9241840d76265ea8071,
+        type: 3}
+      propertyPath: danger
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6084001254774646394, guid: e4b7f9d25c12c9241840d76265ea8071,
         type: 3}
       propertyPath: m_LocalPosition.x

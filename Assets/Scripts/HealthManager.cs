@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class HealthManager : MonoBehaviour
 {
+    public float playerHealth;
+    public UIHealth uiHealth;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        uiHealth.UpdateHealthUI(playerHealth.ToString());
     }
 
-    // Update is called once per frame
-    void Update()
+    public bool UpdateHealth(float amount)
     {
-        
+
+        if (playerHealth + amount < 0)
+        {
+            //impedir compra
+            return false;
+        }
+        else
+        {
+            playerHealth += amount;
+            uiHealth.UpdateHealthUI(playerHealth.ToString());
+            return true;
+        }
     }
 }

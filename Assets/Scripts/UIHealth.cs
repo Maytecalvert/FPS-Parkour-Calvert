@@ -11,9 +11,14 @@ public class UIHealth : MonoBehaviour
 
     void Start()
     {
-        
+        healthManager = FindObjectOfType<HealthManager>();
     }
 
-    // Update is called once per frame
+    public void UpdateHealthUI (string healthAmount)
+    {
+        Txthealth.text = healthAmount;
+    }
+
+   
 
 }
