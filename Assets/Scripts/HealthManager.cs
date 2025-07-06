@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthManager : MonoBehaviour
 {
     public float playerHealth;
     public UIHealth uiHealth;
 
-    // Start is called before the first frame update
     void Start()
     {
         uiHealth.UpdateHealthUI(playerHealth.ToString());
@@ -15,17 +15,25 @@ public class HealthManager : MonoBehaviour
 
     public bool UpdateHealth(float amount)
     {
-
+        
         if (playerHealth + amount < 0)
         {
-            //impedir compra
+            //no cambia nada
             return false;
         }
         else
         {
             playerHealth += amount;
             uiHealth.UpdateHealthUI(playerHealth.ToString());
+
+            // Si la vida llega a 0, se reinicia el personaje a la posición inicial
+            if (playerHealth <= 0)
+            {
+                SceneManager.LoadScene("FPS Parkour");
+            }
+
             return true;
         }
     }
 }
+
